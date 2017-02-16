@@ -22,6 +22,10 @@ put this in your `~/.emacs` or `~/.emacs.d/init.el`:
 ```
 call  `M-x package-refresh-contents`  and try again.
 
+If it complains that a specific version of a package is not found (with a message
+like `http://melpa.milkbox.net/packages/clojure-mode-20161221.523.el: Not found`)
+then call  `M-x package-refresh-contents`  and try again.
+
 #### Install Leiningen
 
 To get [Leiningen](https://leiningen.org):
