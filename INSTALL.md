@@ -53,6 +53,10 @@ Get Oook selector and put it into a directory, e.g., `~/src/oook-selector`:
 Put this in your `~/.emacs` or `~/.emacs.d/init.el`:
 
 ```
+;; make sure packages (including Cider) are in the load path, before loading Oook
+(package-initialize)
+
+;; load Oook
 (require 'oook-setup  "~/src/oook-selector/oook-setup")
 
 ;; default server configuration
